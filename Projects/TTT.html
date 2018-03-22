@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>
+        Tic Tac Toe
+    </title>
+    <link href="../CSS/TTT.css" type="text/css" rel=stylesheet>
+    <script src="../JavaScripts/ttt.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            TicTacToe
+        </header>
+        <div class="list_container">
+            <ul class="list">
+                <li>
+                    <input type="submit" value="Who Won ?" onclick="result()">
+                </li>
+                <li>
+                    <input type="submit" value="Play Again !" onclick="reset2()">
+                </li>
+                <li>
+                    <input type="button" id="help" onclick="help()" value="How to Play!?">
+                </li>
+            </ul>
+        </div>
+        <!--<div class="names">-->
+        <!--<ul>-->
+        <!--<li><input type="text" placeholder=""/></li>-->
+        <!--<li><input type="text" placeholder=""/></li>-->
+
+        <!--</ul>-->
+
+        <!--</div>-->
+        <div id=table_container>
+            <table class='table'>
+                <tr>
+                    <td><img src="../images/block.jpg" id="a" onclick="A()"></td>
+                    <td><img src="../images/block.jpg" id="b" onclick="B()"></td>
+                    <td><img src="../images/block.jpg" id="c" onclick="C()"></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/block.jpg" id="d" onclick="D()"></td>
+                    <td><img src="../images/block.jpg" id="e" onclick="E()"></td>
+                    <td><img src="../images/block.jpg" id="f" onclick="F()"></td>
+                </tr>
+                <tr>
+                    <td><img src="../images/block.jpg" id="g" onclick="G()"></td>
+                    <td><img src="../images/block.jpg" id="h" onclick="H()"></td>
+                    <td><img src="../images/block.jpg" id="i" onclick="I()"></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <div>
+            <table class="scoreboard">
+                <tr>
+                    <td colspan="2" style="text-align: center; font-size: 2em; color:#ffffff;">ScoreBoard</td>
+                </tr>
+                <tr>
+                    <td style="background-color:lightgray;">Player 1 : </td>
+                    <td>
+                        <input type="text" id="result1" placeholder="0" value="0" disabled="disabled">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color:lightgray;">Player 2 : </td>
+                    <td>
+                        <input type="text" id="result2" placeholder="0" value="0" disabled="disabled">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color: lightgray;">Tie : </td>
+                    <td>
+                        <input type="text" id="pie_value" placeholder="0" value="0" disabled="disabled">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
