@@ -18,12 +18,12 @@ function A() {
     if (whose_turn === 1 && a === 0) {
         a = 1;
         whose_turn = 2;
-        image1.src = 'images/block_O.jpg';
+        image1.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && a === 0) {
         a = 2;
         whose_turn = 1;
-        image1.src = 'images/block_X.jpg';
+        image1.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -35,12 +35,12 @@ function B() {
     if (whose_turn === 1 && b === 0) {
         b = 1;
         whose_turn = 2;
-        image2.src = 'images/block_O.jpg';
+        image2.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && b === 0) {
         b = 2;
         whose_turn = 1;
-        image2.src = 'images/block_X.jpg';
+        image2.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -52,12 +52,12 @@ function C() {
     if (whose_turn === 1 && c === 0) {
         c = 1;
         whose_turn = 2;
-        image3.src = 'images/block_O.jpg';
+        image3.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && c === 0) {
         c = 2;
         whose_turn = 1;
-        image3.src = 'images/block_X.jpg';
+        image3.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -69,12 +69,12 @@ function D() {
     if (whose_turn === 1 && d === 0) {
         d = 1;
         whose_turn = 2;
-        image4.src = 'images/block_O.jpg';
+        image4.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && d === 0) {
         d = 2;
         whose_turn = 1;
-        image4.src = 'images/block_X.jpg';
+        image4.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -86,12 +86,12 @@ function E() {
     if (whose_turn === 1 && e === 0) {
         e = 1;
         whose_turn = 2;
-        image5.src = 'images/block_O.jpg';
+        image5.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && e === 0) {
         e = 2;
         whose_turn = 1;
-        image5.src = 'images/block_X.jpg';
+        image5.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -103,12 +103,12 @@ function F() {
     if (whose_turn === 1 && f === 0) {
         f = 1;
         whose_turn = 2;
-        image6.src = 'images/block_O.jpg';
+        image6.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && f === 0) {
         f = 2;
         whose_turn = 1;
-        image6.src = 'images/block_X.jpg';
+        image6.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -120,12 +120,12 @@ function G() {
     if (whose_turn === 1 && g === 0) {
         g = 1;
         whose_turn = 2;
-        image7.src = 'images/block_O.jpg';
+        image7.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && g === 0) {
         g = 2;
         whose_turn = 1;
-        image7.src = 'images/block_X.jpg';
+        image7.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -138,12 +138,12 @@ function H() {
     if (whose_turn === 1 && h === 0) {
         h = 1;
         whose_turn = 2;
-        image8.src = 'images/block_O.jpg';
+        image8.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && h === 0) {
         h = 2;
         whose_turn = 1;
-        image8.src = 'images/block_X.jpg';
+        image8.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -155,12 +155,12 @@ function I() {
     if (whose_turn === 1 && i === 0) {
         i = 1;
         whose_turn = 2;
-        image9.src = 'images/block_O.jpg';
+        image9.src = '../images/block_O.jpg';
         check();
     } else if (whose_turn === 2 && i === 0) {
         i = 2;
         whose_turn = 1;
-        image9.src = 'images/block_X.jpg';
+        image9.src = '../images/block_X.jpg';
         check();
     } else {
         alert("BLOCK Occupied");
@@ -229,15 +229,15 @@ function reset() {
     var image7 = document.getElementById("g");
     var image8 = document.getElementById("h");
     var image9 = document.getElementById("i");
-    image1.src = 'images/block.jpg';
-    image2.src = 'images/block.jpg';
-    image3.src = 'images/block.jpg';
-    image4.src = 'images/block.jpg';
-    image5.src = 'images/block.jpg';
-    image6.src = 'images/block.jpg';
-    image7.src = 'images/block.jpg';
-    image8.src = 'images/block.jpg';
-    image9.src = 'images/block.jpg';
+    image1.src = '../images/block.jpg';
+    image2.src = '../images/block.jpg';
+    image3.src = '../images/block.jpg';
+    image4.src = '../images/block.jpg';
+    image5.src = '../images/block.jpg';
+    image6.src = '../images/block.jpg';
+    image7.src = '../images/block.jpg';
+    image8.src = '../images/block.jpg';
+    image9.src = '../images/block.jpg';
 
 }
 
