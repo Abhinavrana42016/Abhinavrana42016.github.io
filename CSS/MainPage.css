@@ -1,41 +1,36 @@
-body {
+@font-face {
+    font-family: "HelveticaNeue Lighter";
+    src:url("fonts/HelvericaNeue Light.ttf");
+}
+body{
+    font-size:15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+
+.container{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
 
 }
 
-.base {
-
+#name{
+    width: 100%;
+    background-color: #333333;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+#firstname{
+    text-decoration: none;
+    font-weight: lighter;
+}
+#lastname{
+    font-weight: bold;
 }
 
-.header {
 
-}
-
-.dp {
-    float: left;
-    height: 250px;
-    width: 300px;
-}
-
-.my-name {
-
-}
-
-.exp {
-
-}
-
-.edu {
-
-}
-
-.proj {
-
-}
-
-.skills {
-
-}
-
-.contact {
-
-}
