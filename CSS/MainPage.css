@@ -19,7 +19,6 @@ body{
     font-size: 60px;
     padding:5px 10px 0 10px;
     margin:0px 0 0 0;
-    font-family: Helvetica;
 }
 #firstname{
     font-weight: lighter;
@@ -29,15 +28,36 @@ body{
     font-weight: bolder;
 }
 
-.nav_ul{
+
+.links_list ul {
+    list-style: none;
+}
+
+.links_list li {
+    margin: 10px;
+    float: left;
+    display: inline;
+}
+
+.specificlink:visited, .specificlink:link {
+    text-decoration: none;
+    border: 2px solid #000000;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
 
 }
 
-.nav_ul li{
-    float:left;
-    display: inline-block;
-
+.specificlink:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
 }
-
 
 

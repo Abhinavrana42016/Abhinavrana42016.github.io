@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acba49f8-8710-463d-926b-b8b79683adaf" name="Default" comment="Started PortF">
+      <change afterPath="$PROJECT_DIR$/CSS/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/MainPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -17,23 +19,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5448529">
+    <splitter split-orientation="horizontal" split-proportion="0.6455882">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+                <state relative-caret-position="340">
+                  <caret line="17" column="12" selection-end-line="31" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="phrase.rnc" pinned="false" current-in-tab="false">
-            <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+          <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Projects/projects.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+                <state relative-caret-position="160">
+                  <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+                  <folding>
+                    <element signature="e#631#635#0" expanded="true" />
+                    <element signature="e#718#722#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -54,8 +69,8 @@
           <file leaf-file-name="MainPage.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CSS/MainPage.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="684">
-                  <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+                <state relative-caret-position="300">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +87,26 @@
           <file leaf-file-name="TTT.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CSS/TTT.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
+                <state relative-caret-position="-410">
                   <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="projects.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CSS/projects.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="4" selection-start-line="4" selection-end-line="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TTA.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TTA.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="156" column="17" lean-forward="true" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -90,6 +123,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>k</find>
+      <find>nav</find>
+      <find>K</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -98,8 +138,13 @@
       <list>
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/Projects/TTT.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/TTA.css" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/Projects/projects.css" />
+        <option value="$PROJECT_DIR$/Projects/projects.html" />
+        <option value="$PROJECT_DIR$/CSS/projects.css" />
         <option value="$PROJECT_DIR$/CSS/MainPage.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -135,28 +180,6 @@
             <path>
               <item name="Abhinavrana42016.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Abhinavrana42016.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Abhinavrana42016.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Abhinavrana42016.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Abhinavrana42016.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Abhinavrana42016.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="ME" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Abhinavrana42016.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Abhinavrana42016.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Abhinavrana42016.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Abhinavrana42016.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -179,11 +202,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abhrana\Desktop\Github\Abhinavrana42016\Abhinavrana42016.github.io\CSS" />
+      <recent name="C:\Users\abhrana\Desktop\Github\Abhinavrana42016\Abhinavrana42016.github.io\Projects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\abhrana\Desktop\Github\Abhinavrana42016\Abhinavrana42016.github.io\images\ME" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\abhrana\Desktop\Github\Abhinavrana42016\Abhinavrana42016.github.io\Projects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,7 +237,7 @@
       <updated>1521693557917</updated>
       <workItem from="1521693560694" duration="11257000" />
       <workItem from="1521858963596" duration="1789000" />
-      <workItem from="1522035527969" duration="8136000" />
+      <workItem from="1522035527969" duration="32322000" />
     </task>
     <task id="LOCAL-00001" summary="Restarting page">
       <created>1521694564018</created>
@@ -243,20 +267,27 @@
       <option name="project" value="LOCAL" />
       <updated>1522059785941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Started PortF">
+      <created>1522062646388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522062646388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21182000" />
+    <option name="totallyTimeSpent" value="45368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09375" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32901555" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32901555" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -363,13 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/TTT.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/TTT.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -384,17 +408,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/CSS/TTT.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="-410">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTA.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="156" column="17" lean-forward="true" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#631#635#0" expanded="true" />
+            <element signature="e#718#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/projects.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/MainPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="300">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="12" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+}
+.links_list ul {
+    list-style: none;
+}
+
+.links_list li {
+    margin: 10px;
+    float: left;
+    display: inline;
+}
+
+.specificlink:visited, .specificlink:link {
+    text-decoration: none;
+    border: 2px solid #000000;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+.specificlink:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+
+}
