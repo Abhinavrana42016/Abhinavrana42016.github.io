@@ -1,3 +1,3 @@
 # Abhinavrana42016.github.io
 
-My portfolio website attempt. Still in making
+My portfolio website attempt. Still under-construction.
