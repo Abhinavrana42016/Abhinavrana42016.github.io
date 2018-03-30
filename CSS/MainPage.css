@@ -1,57 +1,82 @@
 @font-face {
     font-family: "HelveticaNeue Lighter";
-    src:url("fonts/HelveticaNeue Light.ttf");
-}
-body{
-    font-size:15px;
-    line-height: 1.5;
-    padding:0;
-    margin:0;
-    background-color:#f4f4f4;
-    font-family: Arial,Helvetica,sans-serif;
+    src: url("fonts/HelveticaNeue Light.ttf");
 }
 
-#name{
-    width: 100%;
-    background-color: #333333;
-    color:white;
-    text-align: center;
-    font-size: 60px;
-    padding:50px 0 50px 0;
-    margin:auto;
+html {
+    background-color: beige;
+    /*background-image: linear-gradient(#D8B5FF,#1EAE98);*/
+    /*background-image: linear-gradient(#FCA5F1,#B5FFFF);*/
+    /*background-image: linear-gradient(#BFF098,#6FD6FF);*/
+    background-image: linear-gradient(to bottom, #EA8D8D, #A890FE);
+    /*background-image: linear-gradient(to bottom ,black 50%,white);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }
-#firstname{
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.myimage {*/
+    /*border-radius: 50%;*/
+    /*height: 50px;*/
+    /*width: 50px;*/
+
+/*}*/
+
+#name {
+    width: 100%;
+    background-color: rgba(51, 51, 51, .5);
+    opacity: 20%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 20px 0 0px 0;
+    margin: auto;
+}
+
+#firstname {
     font-weight: lighter;
     font-family: 'HelveticaNeue Lighter';
+    letter-spacing: 10px;
 }
-#lastname{
+
+#lastname {
     font-weight: bolder;
+    letter-spacing: 10px;
 }
 
-
-
-header{
-    margin:0;
-    width:100%;
-    navbutton_background_color:#333333;
-}
-.belowheader{
-    margin:0;
+header {
+    margin: 0;
     width: 100%;
-    background-color: #333333;
 }
-.links_list{
-    margin-left:auto;
+
+.belowheader {
+    margin: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, .5);
+}
+
+.links_list {
+    margin-left: auto;
     margin-right: auto;
-    margin-top:0 ;
+    margin-top: 0;
     margin-bottom: 0;
     letter-spacing: 10px;
 }
+
 .links_list ul {
     list-style: none;
-    text-align:center;
+    text-align: center;
     overflow: hidden;
-    margin:0;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-flow: row;
@@ -60,7 +85,7 @@ header{
 
 .links_list li {
     margin: 0px;
-    padding:20px;
+    padding: 20px;
     flex-grow: 1;
 
 }
@@ -80,51 +105,77 @@ header{
     font-size: 30px;
     margin: 5px;
 }
-#spf{
-    color:white;
+
+#spf {
+    color: white;
     margin: inherit;
-    padding:inherit;
+    padding: inherit;
 }
-#spf:hover{
+
+#spf:hover {
     color: black;
     margin: inherit;
-    padding:inherit;
+    padding: inherit;
 }
 
+.links_list .one:hover {
+    /*background-color: darkviolet;*/
+    background-color: rgba(255, 248, 0, 0.5);
 
-
-.links_list .one:hover{
-    background-color: darkviolet;
-
-    border-right: 8px white solid;
 }
 
-.two:hover{
+.two:hover {
     margin-left: 0;
-    background-color: #24ff7c;
-    border-right: 8px white solid;
+    background-color: rgba(36, 255, 124, .5);
 }
-.thre:hover{
+
+.thre:hover {
     margin-left: 0;
-    background-color: darkturquoise;
-    border-right: 8px white solid;
+    background-color: rgba(0, 206, 209, .5);
 
 }
 
-.fou:hover{
+.fou:hover {
     margin-left: 0;
-    background-color: tomato;
-    border-right: 8px white solid;
+    background-color: rgba(255, 99, 71, .5);
 
 }
-.fiev{
+
+.fiev {
     margin-left: 0;
 
 }
-.fiev:hover{
+
+.fiev:hover {
     margin-left: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 9);
 }
 
+.counter {
+    visibility: hidden;
+}
 
+.about {
+    margin: 0px auto 0 auto;
+    width: 95%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    min-height: 100%;
+}
+
+.about h3 {
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 0;
+    font-size: 3em;
+    color: black;
+    letter-spacing: 15px;
+
+}
+.about h4{
+    margin: 0;
+    padding-top: 0;
+    letter-spacing: 5px;
+    font-size: 1.7em;
+}
 
