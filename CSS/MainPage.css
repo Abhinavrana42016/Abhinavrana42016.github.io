@@ -38,8 +38,12 @@ body {
     color: white;
     text-align: center;
     font-size: 3em;
-    padding: 20px 0 0px 0;
+    padding: 20px 0 0 0;
     margin: auto;
+}
+#nameref {
+    text-decoration: none;
+
 }
 
 #firstname {
@@ -84,7 +88,7 @@ header {
 }
 
 .links_list li {
-    margin: 0px;
+    margin: 0;
     padding: 20px;
     flex-grow: 1;
 
