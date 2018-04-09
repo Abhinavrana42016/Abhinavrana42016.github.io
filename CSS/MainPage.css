@@ -44,7 +44,7 @@ body {
 
 #firstname {
     font-weight: lighter;
-    font-family: 'HelveticaNeue Lighter';
+    font-family: 'HelveticaNeue Lighter',Arial,Helvetica;
     letter-spacing: 10px;
 }
 
@@ -144,38 +144,17 @@ header {
 .fiev {
     margin-left: 0;
 
+
 }
 
 .fiev:hover {
+
     margin-left: 0;
     background-color: rgba(255, 255, 255, 9);
 }
 
-.counter {
-    visibility: hidden;
-}
 
-.about {
-    margin: 0px auto 0 auto;
-    width: 95%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 1);
-    min-height: 100%;
-}
 
-.about h3 {
-    margin: 0;
-    padding-top: 5%;
-    padding-bottom: 0;
-    font-size: 3em;
-    color: black;
-    letter-spacing: 15px;
 
-}
-.about h4{
-    margin: 0;
-    padding-top: 0;
-    letter-spacing: 5px;
-    font-size: 1.7em;
-}
+
 

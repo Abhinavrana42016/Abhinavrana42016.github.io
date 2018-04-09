@@ -1,44 +1,283 @@
-body {
-    margin: 0;
-    padding: 0;
-    font: 20px/1.5 Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: "HelveticaNeue Lighter";
+    src: url("fonts/HelveticaNeue Light.ttf");
 }
 
-header{
-    /*margin:0;*/
-    /*width:100%;*/
-    /*navbutton_background_color: ;*/
+html {
+    background-color: beige;
+    /*background-image: linear-gradient(#D8B5FF,#1EAE98);*/
+    /*background-image: linear-gradient(#FCA5F1,#B5FFFF);*/
+    /*background-image: linear-gradient(#BFF098,#6FD6FF);*/
+    background-image: linear-gradient(to bottom, #EA8D8D, #A890FE);
+    /*background-image: linear-gradient(to bottom ,black 50%,white);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.myimage {*/
+/*border-radius: 50%;*/
+/*height: 50px;*/
+/*width: 50px;*/
+
+/*}*/
+
+#name {
+    width: 100%;
+    background-color: rgba(51, 51, 51, .5);
+    opacity: 20%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding: 20px 0 0px 0;
+    margin: auto;
+}
+
+#nameref {
+    text-decoration: none;
+
+}
+
+#firstname {
+    font-weight: lighter;
+    font-family: 'HelveticaNeue Lighter', Arial, Helvetica;
+    letter-spacing: 10px;
+}
+
+#lastname {
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+.belowheader {
+    margin: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, .5);
+}
+
+.links_list {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 10px;
 }
 
 .links_list ul {
     list-style: none;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
 .links_list li {
-    margin: 10px;
-    float: left;
-    display: inline;
-}
-
-.links_list a:visited, a:link {
-    text-decoration: none;
-    border: 2px solid #000000;
-    background-color: white;
-    padding: 5px;
-    font-weight: bold;
-    color: black;
-    font-size: 20px;
-    margin: 5px;
+    margin: 0px;
+    padding: 20px;
+    flex-grow: 1;
 
 }
 
-.links_list a:hover {
+.specificlink:visited, .specificlink:link {
     text-decoration: none;
-    border: 2px solid black;
-    background-color: black;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin: 5px;
 
 }
+
+.specificlink:hover {
+    /*background-color: #24ff7c;*/
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+}
+
+#spf {
+    color: white;
+    margin: inherit;
+    padding: inherit;
+}
+
+#spf:hover {
+    color: black;
+    margin: inherit;
+    padding: inherit;
+}
+
+.links_list .one:hover {
+    /*background-color: darkviolet;*/
+    background-color: rgba(255, 248, 0, 0.5);
+
+}
+
+.two:hover {
+    margin-left: 0;
+    background-color: rgba(36, 255, 124, .5);
+}
+
+.thre:hover {
+    margin-left: 0;
+    background-color: rgba(0, 206, 209, .5);
+
+}
+
+.fou:hover {
+    margin-left: 0;
+    background-color: rgba(255, 99, 71, .5);
+
+}
+
+.fiev {
+    margin-left: 0;
+
+}
+
+.fiev:hover {
+
+    margin-left: 0;
+    background-color: rgba(255, 255, 255, 9);
+}
+
+.projects {
+    margin: 0px auto 0 auto;
+    width: 95%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .2);
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.projects h3 {
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 0;
+    font-size: 3em;
+    color: black;
+    letter-spacing: 15px;
+
+}
+
+.projects h4 {
+    margin: 0;
+    padding-top: 0;
+    letter-spacing: 5px;
+    font-size: 1.7em;
+    color: white;
+
+}
+
+.projects h5 {
+    margin: 0;
+    padding: 0;
+    /*letter-spacing: 4px;*/
+    font-size: 1.2em;
+}
+
+.proj_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    /*background-color: #A890FE;*/
+}
+
+#academic_container {
+    order: 1;
+    align-self: flex-start;
+    /*background-color: rgba(120,0,220,0.2);*/
+    border-radius: 10px;
+
+    /*Flex Properties*/
+    display: flex;
+    flex-wrap: nowrap;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#personal_container {
+    order: 2;
+    align-self: flex-start;
+    border-radius: 10px;
+    /*background-color: bisque;*/
+
+    /*Flex Property*/
+    display: flex;
+    flex-wrap: nowrap;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#on_going_container {
+    order: 3;
+    align-self: flex-start;
+    /*background-color: #61c8ce;*/
+    border-radius: 10px;
+
+    /*Flex Properties*/
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.proj_list {
+    padding-top: 5px;
+    margin-top: 5px;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+
+}
+
+.proj_list p {
+    margin: 0;
+    color: #383838;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.equalHW {
+    flex: 1;
+    padding: 5px;
+}
+
+.projref:link, :visited {
+    text-decoration: none;
+    color:black;
+}
+.projref:hover{
+    color:#61c8ce;
+}
+
+
+
