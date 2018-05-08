@@ -5,9 +5,9 @@
 
 html {
     background-color: beige;
-    /*background-image: linear-gradient(to bottom,#D8B5FF,#1EAE98);*/
-    background-image: linear-gradient(to bottom,#FCA5F1,#B5FFFF);
-    /*background-image: linear-gradient(#BFF098,#6FD6FF);*/
+    /*background-image: linear-gradient(#D8B5FF,#1EAE98);*/
+    /*background-image: linear-gradient(#FCA5F1,#B5FFFF);*/
+    background-image: linear-gradient(to bottom,#BFF098,#6FD6FF);
     /*background-image: linear-gradient(to bottom, #EA8D8D, #A890FE);*/
     /*background-image: linear-gradient(to bottom ,black 50%,white);*/
     background-repeat: no-repeat;
